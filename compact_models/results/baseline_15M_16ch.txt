@@ -1,0 +1,42 @@
+Train Start = 14:33:49
+Epoch End = 14:34:25
+Epoch 1, Loss: 0.4519757032394409, Accuracy: 78.69255065917969, Test Loss: 0.41835811734199524,                 Test Accuracy: 81.66422271728516
+Epoch End = 14:34:46
+Epoch 2, Loss: 0.3636157512664795, Accuracy: 84.20706176757812, Test Loss: 0.3448520302772522,                 Test Accuracy: 85.87811279296875
+Epoch End = 14:35:06
+Epoch 3, Loss: 0.3353646695613861, Accuracy: 85.7615737915039, Test Loss: 0.33279746770858765,                 Test Accuracy: 85.98479461669922
+Epoch End = 14:35:27
+Epoch 4, Loss: 0.3234868049621582, Accuracy: 86.387451171875, Test Loss: 0.3219861090183258,                 Test Accuracy: 86.65155029296875
+Epoch End = 14:35:47
+Epoch 5, Loss: 0.31581005454063416, Accuracy: 86.76392364501953, Test Loss: 0.31987714767456055,                 Test Accuracy: 86.65155029296875
+Epoch End = 14:36:09
+Epoch 6, Loss: 0.3101571500301361, Accuracy: 87.01568603515625, Test Loss: 0.3181421756744385,                 Test Accuracy: 86.83824157714844
+Epoch End = 14:36:30
+Epoch 7, Loss: 0.30551740527153015, Accuracy: 87.22352600097656, Test Loss: 0.31461235880851746,                 Test Accuracy: 86.97159576416016
+Epoch End = 14:36:50
+Epoch 8, Loss: 0.30140063166618347, Accuracy: 87.42745208740234, Test Loss: 0.31480124592781067,                 Test Accuracy: 87.11827850341797
+Epoch End = 14:37:10
+Epoch 9, Loss: 0.2981667220592499, Accuracy: 87.64078521728516, Test Loss: 0.31522876024246216,                 Test Accuracy: 87.29164123535156
+Epoch End = 14:37:31
+Epoch 10, Loss: 0.29423126578330994, Accuracy: 87.80784606933594, Test Loss: 0.31614238023757935,                 Test Accuracy: 87.22496795654297
+Epoch End = 14:37:52
+Epoch 11, Loss: 0.2909366190433502, Accuracy: 87.96314239501953, Test Loss: 0.31844615936279297,                 Test Accuracy: 87.03826904296875
+Epoch End = 14:38:13
+Epoch 12, Loss: 0.28807201981544495, Accuracy: 88.09568786621094, Test Loss: 0.3192251920700073,                 Test Accuracy: 87.03826904296875
+Epoch End = 14:38:34
+Epoch 13, Loss: 0.28537267446517944, Accuracy: 88.24627685546875, Test Loss: 0.3222462832927704,                 Test Accuracy: 87.10494995117188
+Epoch End = 14:38:55
+Epoch 14, Loss: 0.2824532985687256, Accuracy: 88.31450653076172, Test Loss: 0.32234206795692444,                 Test Accuracy: 87.39832305908203
+Epoch End = 14:39:16
+Epoch 15, Loss: 0.2797175347805023, Accuracy: 88.45176696777344, Test Loss: 0.3291224241256714,                 Test Accuracy: 86.87825012207031
+Epoch End = 14:39:36
+Epoch 16, Loss: 0.27766042947769165, Accuracy: 88.53411865234375, Test Loss: 0.3352428376674652,                 Test Accuracy: 86.25149536132812
+Epoch End = 14:39:57
+Epoch 17, Loss: 0.2752663791179657, Accuracy: 88.70274353027344, Test Loss: 0.3640354871749878,                 Test Accuracy: 85.05133819580078
+Epoch End = 14:40:17
+Epoch 18, Loss: 0.2727949321269989, Accuracy: 88.78353118896484, Test Loss: 0.379652202129364,                 Test Accuracy: 84.61128234863281
+Epoch End = 14:40:38
+Epoch 19, Loss: 0.2709125876426697, Accuracy: 88.80235290527344, Test Loss: 0.6565338373184204,                 Test Accuracy: 74.8366470336914
+Epoch End = 14:40:58
+Epoch 20, Loss: 0.26821810007095337, Accuracy: 88.99842834472656, Test Loss: 0.384136825799942,                 Test Accuracy: 83.94452667236328
+Validation Results: Accuracy = 84.44000244140625, Loss = 0.3764374256134033
