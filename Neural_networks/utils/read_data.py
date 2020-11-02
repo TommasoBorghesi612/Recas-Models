@@ -8,8 +8,8 @@ from datetime import datetime
 import os
 
 data_pwd = '/lustrehome/tborghes/compact_data/data_1.h5'
-labels_pwd = '/lustrehome/tborghes/compact_data/data_1.h5'
-data_size = 1000
+labels_pwd = '/lustrehome/tborghes/compact_data/labels_1.h5'
+data_size = 3000000
 
 
 def print_time():

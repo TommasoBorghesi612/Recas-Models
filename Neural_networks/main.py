@@ -21,9 +21,7 @@ from prova1 import prova1
 main_path = str(os.path.dirname(os.path.realpath(__file__)))
 
 models = [
-#        baseline,
-        prova0,
-#        prova1
+        baseline,
     ]
 
 epochs = 20

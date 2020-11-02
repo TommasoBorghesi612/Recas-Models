@@ -33,8 +33,8 @@ class Epoch_Routine():
             CategoricalAccuracy(name='val_accuracy')
         self.epochs = epochs
         self.model_name = self.model.model_name
-        self.results_path = main_path + "/trained/"
-        self.models_path = main_path + "/results/"
+        self.results_path = main_path + "/results/"
+        self.models_path = main_path + "/trained/"
 
     @tf.function
     def train_step(self, data, labels):
