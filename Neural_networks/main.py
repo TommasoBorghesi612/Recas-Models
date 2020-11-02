@@ -14,16 +14,12 @@ from train_and_test import Epoch_Routine
 
 from read_data import read_data, print_time, data_pwd, labels_pwd, data_size
 
-# from baseline import baseline
-from prova0 import prova0
-from prova1 import prova1
+from baseline import baseline
 
 main_path = str(os.path.dirname(os.path.realpath(__file__)))
 
 models = [
-#        baseline,
-        prova0,
-#        prova1
+        baseline,
     ]
 
 epochs = 20

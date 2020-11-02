@@ -8,8 +8,8 @@ from datetime import datetime
 import os
 
 data_pwd = '/lustrehome/tborghes/compact_data/data_1.h5'
-labels_pwd = '/lustrehome/tborghes/compact_data/data_1.h5'
-data_size = 1000
+labels_pwd = '/lustrehome/tborghes/compact_data/labels_1.h5'
+data_size = 3000000
 
 
 def print_time():
@@ -43,5 +43,5 @@ def read_data(data_size, data_pwd, labels_pwd):
     valid_labels = labels[data_splits[0]:data_splits[1]]
     test_labels = labels[data_splits[1]:]
 
-    return(train_data, train_labels, valid_data, valid_labels, test_data, 
+    return(train_data, train_labels, valid_data, valid_labels, test_data,
            test_labels, image_dims, features_num)
