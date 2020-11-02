@@ -95,6 +95,7 @@ class Epoch_Routine():
             self.test_accuracy.reset_states()
 
             for data, labels in train_ds:
+    
                 self.train_step(data, labels)
 
             for test_data, test_labels in test_ds:

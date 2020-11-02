@@ -43,5 +43,5 @@ def read_data(data_size, data_pwd, labels_pwd):
     valid_labels = labels[data_splits[0]:data_splits[1]]
     test_labels = labels[data_splits[1]:]
 
-    return(train_data, train_labels, valid_data, valid_labels, test_data, 
+    return(train_data, train_labels, valid_data, valid_labels, test_data,
            test_labels, image_dims, features_num)
