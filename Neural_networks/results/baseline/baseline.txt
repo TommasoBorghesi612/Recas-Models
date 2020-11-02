@@ -1,0 +1,29 @@
+1M: 
+Accuracy: 89.07%
+Validation Accuracy: 87.86%
+Test Accuracy: 79.25%
+Epoch time: 14 secondi
+
+1.5M: 
+Accuracy: 88.99%
+Validation Accuracy: 79.45%
+Test Accuracy: 84.44%
+Epoch time: 20 secondi
+
+2M: 
+Accuracy: 88.74%
+Validation Accuracy: 87.86%
+Test Accuracy: 87.76%
+Epoch time: 25 secondi
+
+2.5M:
+Accuracy: 88.78%,
+Validation Accuracy: 87.455%
+Test Accuracy : 86.95%
+Epoch time: 34s
+
+3M:
+Accuracy: 88.75%
+Validation Accuracy: 86.81%
+Test Accuracy : 86.50%
+Epoch time: 38s

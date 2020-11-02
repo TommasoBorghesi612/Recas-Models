@@ -1,0 +1,8 @@
+1.00 M data : 5:10
+1.50 M data : 7:28
+2.00 M data : 14:55
+2.25 M data : 13:20
+2.50 M data : 15:26
+2.75 M data : 14:20
+3.00 M data : 15:50
+3.00 M data + shuffle : 16:14
