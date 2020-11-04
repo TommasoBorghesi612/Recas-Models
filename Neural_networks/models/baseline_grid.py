@@ -4,12 +4,12 @@ from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from tensorflow.keras import Model
 
 
-class baseline(Model):
+class baseline_grid(Model):
     
     def __init__(self, image_dims, features_num, activation,
                  filters, neurons, pooling, incr, filter_inc,
                  filter_size):
-        super(baseline, self).__init__()
+        super(baseline_grid, self).__init__()
         self.conv1 = Conv2D(filters, (filter_size, filter_size), activation=activation, name='conv1')
         self.conv2 = Conv2D(2*filters, (filter_size+incr, filter_size+incr), activation=activation, name='conv2')
         self.pool1 = MaxPooling2D(pool_size=(pooling, pooling), padding='same',
