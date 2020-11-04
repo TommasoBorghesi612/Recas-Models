@@ -24,7 +24,7 @@ class baseline(Model):
         self.b_norm_2 = tf.keras.layers.BatchNormalization(name='norm2')
         self.image_dims = image_dims
         self.features_num = features_num
-        self.model_name = 'baseline'
+        self.model_name = 'baseline2'
 
     def call(self, X):
         images, features = tf.split(X, [self.image_dims, self.features_num], axis=1)
