@@ -123,7 +123,7 @@ class Epoch_Routine():
 
         keras_reg = keras.wrappers.scikit_learn.KerasRegressor(self.build_model)
         param_distribs = {
-            "optimizer" : self.optimizers,
+#            "optimizer" : self.optimizers,
             "loss" : self.losses,
             "learning_rate" : self.learning_rate,
             "activation" : self.activation,
@@ -145,6 +145,8 @@ class Epoch_Routine():
 
         model = grid_search.best_estimator_.model
         model.evaluate(test_data, test_labels)
+        
+        final_dict = pd.concat([pd.DataFrame(grid_search.cv_results_["params"]),pd.DataFrame(grid_search.cv_results_["mean_test_score"], columns=["accuracy"])],axis=1)
 
-
-
+        print(final_dict)
+        final_dict.to_csv("grid_s.csv", mode="w")
