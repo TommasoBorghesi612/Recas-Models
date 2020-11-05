@@ -22,13 +22,13 @@ class baseline_grid(Model):
                                   name='pool2')
         self.flatten = Flatten()
         self.d1 = Dense(neurons, activation=activation, name='dense1')
-        self.d2 = Dense(neurons/2, activation=activation, name='dense2')
+        self.d2 = Dense(int(neurons/2), activation=activation, name='dense2')
         self.d3 = Dense(2, activation='sigmoid', name='output')
         self.b_norm_1 = tf.keras.layers.BatchNormalization(name='norm1')
         self.b_norm_2 = tf.keras.layers.BatchNormalization(name='norm2')
         self.image_dims = image_dims
         self.features_num = features_num
-        self.model_name = 'baseline2'
+        self.model_name = 'baseline_grid'
 
     def call(self, X):
         images, features = tf.split(X, [self.image_dims, self.features_num], axis=1)

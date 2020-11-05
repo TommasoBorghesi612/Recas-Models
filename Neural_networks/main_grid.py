@@ -2,12 +2,17 @@ import numpy as np
 import pandas as pd
 import sys
 import tensorflow as tf
+from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from tensorflow.keras import Model
-from keras.optimizers import Adadelta, Adagrad, Adam, Adamax, Ftrl, Nadam, RMSprop, SGD
+from tensorflow.keras.optimizers import Adadelta, Adagrad, Adam, Adamax, Ftrl, Nadam, RMSprop, SGD
 from sklearn.model_selection import GridSearchCV
 from datetime import datetime
 import os
+
+import logging
+logging.disable(logging.WARNING)
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 sys.path.insert(1, 'utils')
 sys.path.insert(1, 'models')
@@ -24,14 +29,14 @@ models = [
         baseline_grid,
     ]
 
-epochs = 20
+epochs = 10
 
 train_data, train_labels, valid_data, valid_labels, test_data, test_labels, \
  image_dims, features_num = read_data(data_size, data_pwd, labels_pwd)
 
 for model in models:
     epoch_routine = Epoch_Routine(model, image_dims, features_num,
-                                  epochs, main_path)
+                                  main_path, epochs)
 
     epoch_routine.training(train_data, train_labels, valid_data, valid_labels,
                            test_data, test_labels)
