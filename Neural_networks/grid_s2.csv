@@ -1,0 +1,17 @@
+,activation,filter_inc,filter_size,filters,incr,learning_rate,loss,neurons,pooling,accuracy
+0,relu,1,3,32,0,0.01,CategoricalCrossentropy,256,2,-0.6355960488319397
+1,relu,1,3,32,0,0.01,CategoricalCrossentropy,256,3,-0.6367295503616333
+2,relu,1,3,32,1,0.01,CategoricalCrossentropy,256,2,-0.6281491398811341
+3,relu,1,3,32,1,0.01,CategoricalCrossentropy,256,3,-0.5903355836868286
+4,relu,1,2,32,0,0.01,CategoricalCrossentropy,256,2,-0.6422159671783447
+5,relu,1,2,32,0,0.01,CategoricalCrossentropy,256,3,-0.6144843697547913
+6,relu,1,2,32,1,0.01,CategoricalCrossentropy,256,2,-0.6383460164070129
+7,relu,1,2,32,1,0.01,CategoricalCrossentropy,256,3,-0.5894214034080505
+8,relu,2,3,32,0,0.01,CategoricalCrossentropy,256,2,-0.6476442098617554
+9,relu,2,3,32,0,0.01,CategoricalCrossentropy,256,3,-0.6439520597457886
+10,relu,2,3,32,1,0.01,CategoricalCrossentropy,256,2,-0.6451387047767639
+11,relu,2,3,32,1,0.01,CategoricalCrossentropy,256,3,-0.6208104610443115
+12,relu,2,2,32,0,0.01,CategoricalCrossentropy,256,2,-0.6457941055297851
+13,relu,2,2,32,0,0.01,CategoricalCrossentropy,256,3,-0.6186679840087891
+14,relu,2,2,32,1,0.01,CategoricalCrossentropy,256,2,-0.6366325855255127
+15,relu,2,2,32,1,0.01,CategoricalCrossentropy,256,3,-0.6145475745201111

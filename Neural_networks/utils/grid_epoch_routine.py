@@ -45,8 +45,8 @@ class Epoch_Routine():
 #            'Poisson'
         ]
         self.learning_rate = [
-#            0.001,
-            0.0001,
+            1e-2,
+#            1e-3,
 #            0.00001,
 #            0.000001,
         ]
@@ -57,32 +57,32 @@ class Epoch_Routine():
         ]
         self.filters = [
             32,
-#            16,
+            16,
 #            64
         ]
         self.neurons = [
             256,
-#            128,
+            128,
 #            512,
 #            64
         ]
         self.pooling = [
             2,
-#            3,
+            3,
 #            4,
 #            1
         ]
         self.incr = [
             0,
-#            1
+            1
         ]
         self.filter_inc = [
             1,
-#            2
+            2
         ]
         self.filter_size = [
             3,
-#            2,
+            2,
 #            4,
 #            5
         ]
@@ -149,4 +149,4 @@ class Epoch_Routine():
         final_dict = pd.concat([pd.DataFrame(grid_search.cv_results_["params"]),pd.DataFrame(grid_search.cv_results_["mean_test_score"], columns=["accuracy"])],axis=1)
 
         print(final_dict)
-        final_dict.to_csv("grid_s.csv", mode="w")
+        final_dict.to_csv("grid_s2.csv", mode="w")
